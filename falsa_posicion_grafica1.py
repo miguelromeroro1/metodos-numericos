@@ -19,7 +19,7 @@ plt.plot(x_values, y_values, label='f(x)', color='blue')
 for root in roots:
     plt.axvline(x=root, color='red', linestyle='--', linewidth=1.5)
 
-# Agregar puntos en las raíces aproximadas
+# Agregar puntos en las raíces aproximadas  hola mundo
 plt.scatter(roots, [f(root) for root in roots], color='red', label='Raíces Falsa Posición')
 
 # Añadir título y etiquetas
